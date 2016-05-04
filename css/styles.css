@@ -1,0 +1,97 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sebs\/Projects\/SnapBooth\/www\/css\/styles\.scss}line{font-family:\000037}}
+body {
+  background-color: black;
+  font-family: "lora", serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sebs\/Projects\/SnapBooth\/www\/css\/styles\.scss}line{font-family:\0000312}}
+#main-container {
+  margin: 0;
+  padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sebs\/Projects\/SnapBooth\/www\/css\/styles\.scss}line{font-family:\0000315}}
+  #main-container .col-sm-12 {
+    padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sebs\/Projects\/SnapBooth\/www\/css\/styles\.scss}line{font-family:\0000320}}
+.main-item {
+  padding: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sebs\/Projects\/SnapBooth\/www\/css\/styles\.scss}line{font-family:\0000325}}
+.grid .item {
+  width: 20%;
+  padding: 10px;
+  /* Small Devices, Tablets */
+  /* Extra Small Devices, Phones */
+  /* Custom, iPhone Retina */ }
+  @media only screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sebs\/Projects\/SnapBooth\/www\/css\/styles\.scss}line{font-family:\0000325}}
+    .grid .item {
+      width: 33.333333%;
+      padding: 10px; } }
+  @media only screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sebs\/Projects\/SnapBooth\/www\/css\/styles\.scss}line{font-family:\0000325}}
+    .grid .item {
+      width: 50%;
+      padding: 10px; } }
+  @media only screen and (max-width: 320px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sebs\/Projects\/SnapBooth\/www\/css\/styles\.scss}line{font-family:\0000325}}
+    .grid .item {
+      width: 50%;
+      padding: 10px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sebs\/Projects\/SnapBooth\/www\/css\/styles\.scss}line{font-family:\0000350}}
+.main-item {
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sebs\/Projects\/SnapBooth\/www\/css\/styles\.scss}line{font-family:\0000352}}
+  .main-item .meta {
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    /* Small Devices, Tablets */
+    /* Extra Small Devices, Phones */
+    /* Custom, iPhone Retina */ }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sebs\/Projects\/SnapBooth\/www\/css\/styles\.scss}line{font-family:\0000360}}
+    .main-item .meta .title {
+      font-size: 100px;
+      font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sebs\/Projects\/SnapBooth\/www\/css\/styles\.scss}line{font-family:\0000364}}
+    .main-item .meta .subtitle {
+      font-size: 28px;
+      margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sebs\/Projects\/SnapBooth\/www\/css\/styles\.scss}line{font-family:\0000368}}
+    .main-item .meta i {
+      color: rgba(255, 255, 255, 0.9);
+      font-size: 20px; }
+    @media only screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sebs\/Projects\/SnapBooth\/www\/css\/styles\.scss}line{font-family:\0000375}}
+      .main-item .meta .title {
+        font-size: 36px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sebs\/Projects\/SnapBooth\/www\/css\/styles\.scss}line{font-family:\0000378}}
+      .main-item .meta .subtitle {
+        font-size: 16px;
+        margin-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sebs\/Projects\/SnapBooth\/www\/css\/styles\.scss}line{font-family:\0000382}}
+      .main-item .meta i {
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 16px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sebs\/Projects\/SnapBooth\/www\/css\/styles\.scss}line{font-family:\00003104}}
+.item {
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sebs\/Projects\/SnapBooth\/www\/css\/styles\.scss}line{font-family:\00003107}}
+  .item .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    opacity: 0;
+    padding: 3px;
+    transition: all .500s ease .2s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sebs\/Projects\/SnapBooth\/www\/css\/styles\.scss}line{font-family:\00003115}}
+    .item .overlay i {
+      color: rgba(255, 255, 255, 0.9); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sebs\/Projects\/SnapBooth\/www\/css\/styles\.scss}line{font-family:\00003120}}
+  .item:hover .overlay {
+    opacity: 1; }

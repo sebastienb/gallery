@@ -1,0 +1,131 @@
+// vars
+
+$white: transparentize(white, .1);
+$black: black;
+$title:#3D4361;
+
+body{
+  background-color: $black;
+  font-family: "lora", serif;
+}
+
+#main-container{
+  margin: 0;
+  padding: 0;
+  .col-sm-12{
+    padding: 0;
+  }
+}
+
+.main-item{
+  padding:10px;
+}
+
+.grid{
+  .item {
+
+    width: 20%;
+    padding: 10px;
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+      width: 33.333333%;
+      padding: 10px;
+    }
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (max-width : 480px) {
+      width: 50%;
+      padding: 10px;
+    }
+
+    /* Custom, iPhone Retina */
+    @media only screen and (max-width : 320px) {
+      width: 50%;
+      padding: 10px;
+    }
+  }
+}
+
+.main-item{
+  position: relative;
+  .meta{
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    color: $white;
+
+    .title{
+      font-size: 100px;
+      font-weight: bold;
+    }
+    .subtitle{
+      font-size: 28px;
+      margin-bottom: 30px;
+    }
+    i{
+      color: $white;
+      font-size: 20px;
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+      .title{
+        font-size: 36px;
+      }
+      .subtitle{
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+      i{
+        color: $white;
+        font-size: 16px;
+
+      }
+    }
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (max-width : 480px) {
+
+    }
+
+    /* Custom, iPhone Retina */
+    @media only screen and (max-width : 320px) {
+
+    }
+
+
+  }
+}
+
+
+.item{
+  position:relative;
+
+  .overlay{
+    background-color: transparentize($black, .4);;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    opacity: 0;
+    padding: 3px;
+    transition: all .500s ease .2s;
+    i{
+      color: $white;
+    }
+  }
+  &:hover{
+    .overlay{
+      opacity: 1;
+    }
+  }
+  .photo{
+    // opacity: .9;
+    // transition: all .3s ease;
+    // &:hover{
+    //   opacity: 1;
+    // }
+  }
+}
